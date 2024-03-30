@@ -194,6 +194,7 @@ header{
 
 .heading{
     text-align: center;
+    padding-top: 30px;
 }
 
 .heading h2{
@@ -302,4 +303,78 @@ header{
 .customers-container .box:hover{
     background: var(--second-color);
     transition: 0.2s all linear;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin: 5rem;
+    
+}
+
+.footer-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-box p{
+    font-size: 0.938rem;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.social a .bx{
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 10px;
+    background: var(--second-color);
+    border-radius: 0.2rem
+}
+
+.social a .bx:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.footer-box h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-box li a{
+    color: var(--text-color);
+}
+
+.footer-box li a:hover{
+    color: var(--main-color);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.contact span{
+    display: flex;
+    align-items: center;
+}
+
+.contact i{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.copyright{
+    padding: 20px;
+    text-align: center;
+    background: var(--second-color);
 }
