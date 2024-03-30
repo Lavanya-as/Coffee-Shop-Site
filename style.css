@@ -39,7 +39,12 @@ header{
     align-items: center;
     padding: 18px 180px;
     transition: 0.5s linear;
+   
+}
+
+header.shadow{
     background: var(--text-color);
+    background: var(--box-shadow);
 }
 
 .logo img{
